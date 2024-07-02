@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff; /* Warna latar belakang tidak transparan */
+    border: 1px solid #ddd; /* Atur border untuk membuat batas yang jelas */
+}
+
+table th,
+table td {
+    border: 1px solid #444444;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #4c4b4b;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

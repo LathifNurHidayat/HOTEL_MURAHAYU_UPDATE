@@ -1,0 +1,90 @@
+/* BAGROUND */
+.header {
+  padding-block: 5rem;
+  background-image: linear-gradient(
+      rgba(15, 26, 44, 0.5),
+      rgba(15, 26, 44, 0.5)
+    ),
+    url("assets/header.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30;
+  }
+  
+  .utama{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.078),#d1d1d11d), url("g8.jpg");
+        background-size: cover;
+        background-position: center;
+       
+    }
+    .kembali {
+        text-align: center;
+    }
+        /* Style the form container */
+    table {
+      border-collapse: collapse;
+      width: 50%;
+      margin: 0 auto;
+      background-color: wheat;
+      margin-bottom: 25%;
+      margin-top: 5%;
+   
+    }
+    
+    /* Style table rows */
+    tr {
+      border-bottom: 1px solid #ddd;
+      
+    }
+    
+    /* Style table cel */
+    td {
+      padding: 10px;
+      text-align: left;
+    }
+    
+    /* Style kolom input*/
+    input[type="number"],
+    input[type="text"],
+    input[type="date"],
+    input[type="email"],
+    select{
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    /* Style Button simpan */
+    input[type="submit"] {
+      background-color: goldenrod;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    /* Style  "Kembali" link */
+    .kembali{
+      background-color: goldenrod;
+      color: white;
+      padding: 8px 14px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    /* Style  "Kembali" link on hover */
+    .kembali:hover {
+      text-decoration: underline;
+    }
+    
